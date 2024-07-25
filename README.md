@@ -1,21 +1,22 @@
 # ALPHA_DIET-doc.
 
-## Table of Contents:
--Project Overview
--Installation
--Usage
--Features
--Architecture
--Widgets and Components
--Navigation
--State Management
--API Integration
--Theming and Styling
--Animations
--Responsive Design
--Contributing
--License
--Further Reading
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Architecture](#architecture)
+6. [Widgets and Components](#widgets-and-components)
+7. [Navigation](#navigation)
+8. [State Management](#state-management)
+9. [API Integration](#api-integration)
+10. [Theming and Styling](#theming-and-styling)
+11. [Animations](#animations)
+12. [Responsive Design](#responsive-design)
+13. [Contributing](#contributing)
+14. [License](#license)
+
+
 
 #Project Overview
 Alpha Diet is a comprehensive diet and nutrition management mobile application built using Flutter. The app allows users to track their dietary intake, plan meals, and monitor their nutritional goals. It features a user-friendly interface with various widgets, navigation patterns, UI components, gestures, forms, themes, animations, and responsive design principles to ensure an engaging user experience.
@@ -29,7 +30,7 @@ Steps
 Clone the Repository
 
 
-git clone https://github.com/ACCapilisername/alpha-diet-flutter.git
+git  https://github.com/ACCapili/alpha-diet-flutter.git
 cd alpha-diet-flutter
 Install Dependencies
 
@@ -50,15 +51,15 @@ Navigate to the login screen.
 Enter your credentials and log in.
 Track Your Diet
 
-Use the dashboard to add meals.
+##Use the dashboard to add meals.
 Search for food items from the database.
 Log consumed food items to track your intake.
-Plan Meals
+Plan Meals.
 
-Access the meal planning feature.
+##Access the meal planning feature.
 Create meal plans for different days.
 Customize your meal plans according to your dietary goals.
-Monitor Progress
+Monitor Progress/
 
 Use the analytics feature to monitor your nutritional intake.
 View charts and reports to understand your dietary habits.
@@ -134,7 +135,11 @@ FadeTransition: For fading elements in and out.
 Responsive Design
 The application is designed to be responsive and adapt to different screen sizes and orientations using the MediaQuery class and LayoutBuilder widget.
 
+## Responsive Design
 
+The application is designed to be responsive and adapt to different screen sizes and orientations using the MediaQuery class and LayoutBuilder widget.
+
+```dart
 @override
 Widget build(BuildContext context) {
   var screenSize = MediaQuery.of(context).size;
@@ -145,22 +150,15 @@ Widget build(BuildContext context) {
         : _buildNarrowLayout(),
   );
 }
-Contributing
-We welcome contributions from the community! To contribute:
+
+
 
 Fork the repository.
 Create a new branch for your feature or bugfix.
 Implement your changes.
 Submit a pull request with a detailed description of your changes.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Further Reading
-Flutter Documentation
-Dart Documentation
-Provider Package
-Adding a Code of Conduct to Your Project
-Setting Up Your Project for Healthy Contributions
+
 
 
 
