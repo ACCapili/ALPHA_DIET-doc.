@@ -1,7 +1,8 @@
 # Alpha Diet
 
 Alpha Diet is a comprehensive Flutter application designed to help you manage your nutrition and hydration needs effectively. The app offers personalized recommendations, insightful nutrition information, and goal-setting features to assist you in leading a healthier lifestyle.
-
+## SDG 2 
+Aims to end hunger, achieve food security and improved nutrition and promote sustainable agriculture. In order to achieve it, we must also address underlying structural problems tied with poverty, lack of access to education, employment and health care, climate change, water and resource scarcity and others.
 ## Features
 
 - **Home Page**: Access the main sections of the app, including Food Nutritions, Hydration, Suggestions, and Goals.
